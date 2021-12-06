@@ -59,10 +59,10 @@ namespace Задание_13
         {
             FloorNumber = floorNumber;
         }
-        public void Print(int floorNumber)
+        public void Print()
         {
-            Print();
-            Console.WriteLine("Количество этажей: N = {1}", FloorNumber);
+            base.Print();
+            Console.WriteLine("Количество этажей: N = {0}", FloorNumber);
         }
     }
 }
